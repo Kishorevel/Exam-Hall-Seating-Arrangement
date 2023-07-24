@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="department.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header-content">
+    <button onclick="window.location.href='add-student-details.html';">Home</button>
+    <!-- <button onclick="window.location.href='add-student-details.html';">Add Students</button> -->
+    <button onclick="window.location.href='department.html';">Add Department</button>
+    <button onclick="window.location.href='examhall.html';">Add Exam Halls</button>
+    <button onclick="window.location.href='seatallocation.html';">Seat Allocation</button>
+    <button onclick="window.location.href='seatingarrangement.html';">View Seating Arrangements</button>
+    <button onclick="window.location.href='studentdetails.html';">Student Details</button>
+    <button onclick="window.location.href='login.html';">Logout</button>
+</header>
+  <main>
+    <form action="examhall.html">
+      <div class="main-content">
+        <div class="main-content-border">
+          <div class="add-department">
+            Add Department
+          </div>
+          <div class="department">
+            <label for="department">Department</label>
+          </div>
+          <div>
+            <input class="box" type="text" id="Department" name="Department">
+          </div>
+          <div class="submit-box">
+            <button class="submit-button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
