@@ -12,9 +12,6 @@ body{
   margin-top: 0;
   font-family: "Poppins", sans-serif;
 }
-.header-content:hover{
-  cursor: pointer;
-}
 button{
   background-color: rgb(62, 200, 255);
   border: 1px solid rgb(62, 200, 255);
@@ -22,6 +19,9 @@ button{
   padding: 10px;
   font-weight: 600;
   font-size: 1rem;
+}
+button:hover{
+  cursor:pointer;
 }
 .main-content{
   display: flex;
