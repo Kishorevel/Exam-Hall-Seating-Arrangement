@@ -12,6 +12,9 @@ body{
   margin-top: 0;
   font-family: "Poppins", sans-serif;
 }
+.header-content:hover{
+  pointer:pointer;
+}
 button{
   background-color: rgb(62, 200, 255);
   border: 1px solid rgb(62, 200, 255);
