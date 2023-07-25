@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+body{
+  
+  font-size: 1.2rem;
+}
+.header-content{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(62, 200, 255);
+  padding: 20px 0px 20px 0px;
+  border-radius: 5px;
+  margin-top: 0;
+  font-weight: 600;
+}
+.main-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 190px;
+}
+button{
+  background-color: rgb(62, 200, 255);
+  border: 1px solid rgb(62, 200, 255);
+  border-radius: 35px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+button:hover{
+  cursor:pointer;
+}
+.seating-allotment,
+.main-content-border{
+  width: 750px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+}
+.seating-allotment{
+  border-top: none;
+  background-color: rgb(3, 160, 3);
+  font-size: 26.5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.next-button{
+  background-color: rgb(3, 160, 3);
+  border: none;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  width: 230px;
+  height: 43px;
+  border-radius: 35px;
+  padding: 8px 0px 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.next-button:hover{
+  background-color: green;
+  transition: 1s;
+}
+
+.semester,
+.date{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.box{
+  border: 1px solid black;
+  border-radius: 35px;
+  width: 270px;
+  height: 40px;
+  font-size: 17px;
+}
+table,th,td{
+  border: 1px solid black;
+  width: 750px;
+  height: 50px;
+  text-align: center;
+}
+#limg{
+  height: 400px;
+}
+.studentdetails-limg{
+  margin-top: -698px;
+  margin-left: 70px;
+}
+#rimg{
+  height: 300px;
+  
+}
+.studentdetails-rimg{
+  display: flex;
+  justify-content: right;
+  margin-right: 40px;
+  margin-bottom: -25px;
+}
+@media (max-width:1400px){
+  .studentdetails-limg{
+    display: none;
+  }
+  .studentdetails-rimg{
+    display: none;
+  }
+}

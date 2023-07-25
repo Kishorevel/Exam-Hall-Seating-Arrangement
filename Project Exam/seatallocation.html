@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="seatallocation.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header-content">
+    <button onclick="window.location.href='add-student-details.html';">Home</button>
+    <!-- <button onclick="window.location.href='add-student-details.html';">Add Students</button> -->
+    <button onclick="window.location.href='department.html';">Add Department</button>
+    <button onclick="window.location.href='examhall.html';">Add Exam Halls</button>
+    <button onclick="window.location.href='seatallocation.html';">Seat Allocation</button>
+    <button onclick="window.location.href='seatingarrangement.html';">View Seating Arrangements</button>
+    <button onclick="window.location.href='studentdetails.html';">Student Details</button>
+    <button onclick="window.location.href='login.html';">Logout</button>
+</header>
+  <main>
+    <form action="seatingarrangement.html">
+      <div class="main-content">
+        <div class="main-content-border">
+          <div class="seating-allotment">
+            Auto Seating Allotment
+          </div>
+          <div class="semester">
+            <label for="semester">Semester</label>
+          </div>
+          <div>
+            <input class="box" type="text" id="Semester" name="Semester">
+          </div>
+          <div class="date">
+            <label class="date-box" for="date">Date</label>
+          </div>
+          <div>
+            <input class="box" type="date" name="Date" id="Date">
+          </div>
+          <div class="submit-box">
+            <button class="submit-button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="seatallocation-limg">
+      <img src="img/fall.svg" id="limg">
+    </div>
+    <div class="seatallocation-rimg">
+      <img src="img/activeoptions.svg" id="rimg">
+    </div>
+  </main>
+</body>
+</html>
