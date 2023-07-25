@@ -13,7 +13,7 @@ body{
   font-family: "Poppins", sans-serif;
 }
 .header-content:hover{
-  pointer: pointer;
+  cursor: pointer;
 }
 button{
   background-color: rgb(62, 200, 255);
